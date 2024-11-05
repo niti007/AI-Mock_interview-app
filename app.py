@@ -8,7 +8,7 @@ from models.question_generator import QuestionGenerator
 from models.resource_recommender import ResourceRecommender
 
 # Hardcode your Google API key here
-google_api_key = "AIzaSyD4-wE6U-sLPj1ABnkUB9i_ewsoiXM8aHA"  # Replace with your actual API key
+google_api_key = ""  # Replace with your actual API key
 
 def save_uploadedfile(uploadedfile):
     """Save uploaded file to a temporary file and return the path"""
